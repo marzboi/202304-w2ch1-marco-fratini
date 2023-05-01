@@ -169,5 +169,25 @@ body {
 .summary-card img {
   border-radius: 1.25rem 1.25rem 0 0;
 }
+.summary-card__description h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin: 1.25rem 0;
+}
+.summary-card__description p {
+  font-size: 1.25rem;
+  margin-bottom: 1.25rem;
+  width: 80%;
+  margin: 0 auto;
+}
+.summary-card__price {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.summary-card__proceed {
+  display: flex;
+  flex-direction: column;
+}
 
 /*# sourceMappingURL=styles.css.map */
