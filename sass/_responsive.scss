@@ -1,8 +1,7 @@
-$breakpoint_mobile: 320px;
+$breakpoint_mobile: 375px;
 $breakpoint_tablet: 768px;
 $breakpoint_tablet_portrait: 992px;
-$breakpoint_desktop: 1200px;
-$breakpoint_desktop_xxl: 1440px;
+$breakpoint_desktop: 1440px;
 
 // SCSS Mixins
 @mixin mobile {
