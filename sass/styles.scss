@@ -2,34 +2,24 @@
 @use "global";
 @import "responsive";
 
-.summary-card {
+.app-container {
+  margin: 0 auto;
   height: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+}
 
-  div {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(5);
-    background-color: white;
-    max-width: rem(375);
+.summary-card {
+  display: flex;
+  flex-direction: column;
+  max-width: rem(375);
+  border-radius: rem(20);
+  background-color: white;
+  align-items: center;
 
-    img {
-      border-radius: rem(20) rem(20) 0 0;
-      margin-bottom: rem(20);
-    }
-
-    h2 {
-      font-size: rem(32);
-      text-align: center;
-      margin-bottom: rem(32);
-    }
-
-    .summary-card__price__price {
-      display: flex;
-      flex-direction: row;
-    }
+  img {
+    border-radius: rem(20) rem(20) 0 0;
   }
 }
