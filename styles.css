@@ -179,15 +179,36 @@ body {
   margin-bottom: 1.25rem;
   width: 80%;
   margin: 0 auto;
+  text-align: center;
 }
 .summary-card__price {
+  align-items: center;
+  background-color: hsl(224, 23%, 55%);
   display: flex;
   justify-content: space-around;
   width: 100%;
+  width: 80%;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 1.25rem 0;
 }
 .summary-card__proceed {
   display: flex;
   flex-direction: column;
+}
+.summary-card__proceed .proceed {
+  border: none;
+  background-color: hsl(223, 47%, 23%);
+  color: white;
+  font-size: 2rem;
+  border-radius: 2.5rem;
+  padding: 1.25rem;
+}
+.summary-card__proceed .cancel {
+  border: none;
+  background-color: white;
+  font-size: 1.75rem;
+  margin: 1.25rem 0;
 }
 
 /*# sourceMappingURL=styles.css.map */
