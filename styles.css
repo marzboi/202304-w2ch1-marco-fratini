@@ -176,23 +176,24 @@ body {
   font-weight: bold;
 }
 .summary-card__description p {
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   margin-bottom: 1.25rem;
   width: 80%;
   margin: 0 auto;
   text-align: center;
   color: hsl(224, 23%, 55%);
+  line-height: 1.5;
 }
 .summary-card__price {
   align-items: center;
-  background-color: hsl(224, 23%, 55%);
+  background-color: hsl(225, 100%, 98%);
   display: flex;
   justify-content: space-around;
   width: 100%;
   width: 80%;
   border-radius: 20px;
   padding: 10px;
-  margin: 1.25rem 0;
+  margin: 1.5625rem 0;
 }
 .summary-card__price h4 {
   margin: 0.3125rem;
@@ -204,16 +205,17 @@ body {
 }
 .summary-card__proceed .proceed {
   border: none;
-  background-color: hsl(223, 47%, 23%);
+  background-color: hsl(245, 75%, 52%);
   color: white;
-  font-size: 2rem;
-  border-radius: 2.5rem;
-  padding: 1.25rem;
+  font-size: 1.5rem;
+  border-radius: 0.9375rem;
+  padding: 1rem 2.5rem;
+  box-shadow: 0.5rem;
 }
 .summary-card__proceed .cancel {
   border: none;
   background-color: white;
-  font-size: 1.75rem;
+  font-size: 1.25rem;
   margin: 1.25rem 0;
 }
 
