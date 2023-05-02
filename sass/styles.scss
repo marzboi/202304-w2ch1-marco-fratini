@@ -34,6 +34,7 @@ $dark-blue: hsl(223, 47%, 23%);
       font-size: rem(32);
       text-align: center;
       margin: rem(20) 0;
+      font-weight: bold;
     }
 
     p {
@@ -42,6 +43,7 @@ $dark-blue: hsl(223, 47%, 23%);
       width: 80%;
       margin: 0 auto;
       text-align: center;
+      color: $desaturated-blue;
     }
   }
 
@@ -55,6 +57,11 @@ $dark-blue: hsl(223, 47%, 23%);
     border-radius: 20px;
     padding: 10px;
     margin: rem(20) 0;
+
+    h4 {
+      margin: rem(5);
+      text-align: center;
+    }
   }
 
   &__proceed {

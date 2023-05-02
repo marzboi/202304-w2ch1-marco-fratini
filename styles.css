@@ -173,6 +173,7 @@ body {
   font-size: 2rem;
   text-align: center;
   margin: 1.25rem 0;
+  font-weight: bold;
 }
 .summary-card__description p {
   font-size: 1.25rem;
@@ -180,6 +181,7 @@ body {
   width: 80%;
   margin: 0 auto;
   text-align: center;
+  color: hsl(224, 23%, 55%);
 }
 .summary-card__price {
   align-items: center;
@@ -191,6 +193,10 @@ body {
   border-radius: 20px;
   padding: 10px;
   margin: 1.25rem 0;
+}
+.summary-card__price h4 {
+  margin: 0.3125rem;
+  text-align: center;
 }
 .summary-card__proceed {
   display: flex;
