@@ -38,25 +38,26 @@ $dark-blue: hsl(223, 47%, 23%);
     }
 
     p {
-      font-size: rem(20);
+      font-size: rem(18);
       margin-bottom: rem(20);
       width: 80%;
       margin: 0 auto;
       text-align: center;
       color: $desaturated-blue;
+      line-height: 1.5;
     }
   }
 
   &__price {
     align-items: center;
-    background-color: $desaturated-blue;
+    background-color: $very-pale-blue;
     display: flex;
     justify-content: space-around;
     width: 100%;
     width: 80%;
     border-radius: 20px;
     padding: 10px;
-    margin: rem(20) 0;
+    margin: rem(25) 0;
 
     h4 {
       margin: rem(5);
@@ -70,17 +71,18 @@ $dark-blue: hsl(223, 47%, 23%);
 
     .proceed {
       border: none;
-      background-color: $dark-blue;
+      background-color: $bright-blue;
       color: white;
-      font-size: rem(32);
-      border-radius: rem(40);
-      padding: rem(20);
+      font-size: rem(24);
+      border-radius: rem(15);
+      padding: rem(16) rem(40);
+      box-shadow: rem(8);
     }
 
     .cancel {
       border: none;
       background-color: white;
-      font-size: rem(28);
+      font-size: rem(20);
       margin: rem(20) 0;
     }
   }
